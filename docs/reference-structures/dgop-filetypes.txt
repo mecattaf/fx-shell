@@ -1,0 +1,11 @@
+     62 go
+      2 md
+      1 yml
+      1 sum
+      1 spec
+      1 nix
+      1 mod
+      1 lock
+      1 gitignore
+      1 /Makefile
+      1 /LICENSE
