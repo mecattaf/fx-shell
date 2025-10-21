@@ -1,0 +1,7 @@
+{
+	"version": "0.0.54", 
+  "pkg_update": false,
+	"changelog": [
+    "<b>fix:</b> Brightness slider not working on scroll (<a href='https://github.com/Axenide/Ax-Shell/pull/302'>#302</a>)"
+  ]
+}

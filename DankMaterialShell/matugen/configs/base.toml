@@ -1,0 +1,9 @@
+[config]
+
+[templates.dmsgtk4]
+input_path = './matugen/templates/gtk-colors.css'
+output_path = '~/.config/gtk-4.0/dank-colors.css'
+
+[templates.dmskcolorscheme]
+input_path = './matugen/templates/matugen-kcolorscheme.colors'
+output_path = '~/.local/share/color-schemes/DankMatugen.colors'

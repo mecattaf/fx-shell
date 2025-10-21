@@ -1,0 +1,67 @@
+@use "sass:color";
+@use "theme";
+@use "common";
+@use "variable";
+
+
+#overview-menu {
+
+  padding: 5px;
+}
+
+#overview_button {
+  border-radius: variable.$bar-widgets-overview-border-radius;
+  border: if(variable.$bar-widgets-overview-border-enabled, variable.$border, none);
+  border-width: variable.$bar-widgets-overview-border-width;
+
+  #nerd-icon.panel-font-icon {
+    font-size: variable.$bar-widgets-overview-icon_size;
+    margin-right: variable.$bar-widgets-overview-spacing;
+  }
+
+}
+
+#overview-window {
+  background-color: color.mix(black, transparent, 90%);
+  border-radius: 50px;
+  padding: common.toEm(10);
+}
+
+#overview-icon {
+  margin: common.toEm(5);
+  background-color: color.mix(black, transparent, 40%);
+  border-color: black;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  padding: common.toEm(5);
+}
+
+#overview-client-box,
+#overview-workspace-bg,
+#overview-frame {
+  border-radius: variable.$radius;
+  transition: all 0.1s ease;
+}
+
+#overview-client-box {
+  background-color: color.mix(theme.$surface-disabled, transparent, 40%);
+
+  &:hover {
+    background-color: color.mix(theme.$surface-disabled, transparent, 70%);
+  }
+
+  &:active {
+    background-color: color.mix(theme.$surface-disabled, transparent, 100%);
+  }
+}
+
+#overview-workspace-bg {
+  background-color: color.mix(theme.$surface-disabled, transparent, 40%);
+
+  #overview-add-label{
+    font-size: 2rem;
+    font-weight: 400;
+    color: color.mix(theme.$text-main, black, 30%);
+  }
+}

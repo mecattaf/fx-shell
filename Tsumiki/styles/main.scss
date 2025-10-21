@@ -1,0 +1,31 @@
+@use "common";
+@use "variable";
+@use "osd.scss";
+@use "dock.scss";
+@use "power.scss";
+@use "media.scss";
+@use "theme";
+@use "taskbar.scss";
+@use "weather.scss";
+@use "overview.scss";
+@use "datemenu.scss";
+@use "cliphist.scss";
+@use "workspace.scss";
+@use "system_tray.scss";
+@use "widget_group.scss";
+@use "notification.scss";
+@use "kanban.scss";
+@use "emoji.scss";
+@use "quicksettings.scss";
+@use "app_launcher.scss";
+@use "collapsible_group.scss";
+
+/* unset so we can style everything from the ground up. */
+
+* {
+  all: unset;
+  font-size: variable.$font-size;
+  font-family: variable.$font-name;
+  font-family: variable.$font-name;
+  font-style: variable.$font-style;
+}
