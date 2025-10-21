@@ -1,0 +1,5 @@
+singleton ServiceRegistry 1.0 ServiceRegistry.qml
+singleton EventBus 1.0 EventBus.qml
+singleton Config 1.0 Config.qml
+singleton Theme 1.0 Theme.qml
+singleton Utils 1.0 Utils.qml
